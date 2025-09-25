@@ -25,7 +25,7 @@ __declspec(align(16)) struct Color
 
 int main()
 {
-	const auto mem = Memory("csgo.exe");
+	const auto mem = Memory("cs2.exe");
 
 	std::cout << "csgo found!" << std::endl;
 
